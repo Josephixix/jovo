@@ -81,7 +81,7 @@ export default function Contact() {
 
           {/* WhatsApp */}
           <a
-            href="https://wa.me/09042562509"
+            href="https://wa.link/wy0uuk"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-full border bg-black hover:bg-gray-100 text-gray-200 text-lg font-semibold transition"
