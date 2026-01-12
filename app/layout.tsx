@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   creator: "Joseph Obasi",
   publisher: "Joseph Obasi",
 
-  metadataBase: new URL("https://jovo.dev"),
+  metadataBase: new URL("https://jovo-ashy.vercel.app/"),
 
   robots: {
     index: true,
