@@ -99,7 +99,7 @@ export default function Contact() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/josephukohaobasi"
+            href="http://www.linkedin.com/in/joseph-ukoha-obasi-155203289"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-full border bg-black hover:bg-gray-100 text-gray-200 text-lg font-semibold transition"

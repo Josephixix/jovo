@@ -63,7 +63,7 @@ export default function Footer() {
 
             {/* LinkedIn */}
             <a
-              href="https://linkedin.com/in/josephukohaobasi"
+              href="http://www.linkedin.com/in/joseph-ukoha-obasi-155203289"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 text-gray-300 hover:bg-gray-700 px-4 py-2 text-sm transition"
