@@ -2,15 +2,15 @@ import Image from "next/image"
 
 const projects = [
   {
-    image: "/soft.png",
+    image: "/x1.png",
     live: "https://soft-skin.vercel.app/",
   },
   {
-    image: "/nior.png",
+    image: "/projects3.png",
     live: "https://project3-lake-six.vercel.app/",
   },
   {
-    image: "/crypto.png",
+    image: "/x2.png",
     live: "https://xero-crypto.vercel.app/",
   },
 ]
@@ -36,14 +36,19 @@ export default function Projects() {
         {/* Projects Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <div
+            <a
               key={index}
+              href={project.live}
+              target="_blank"
+              rel="noopener noreferrer"
               className="
-                relative
+                block
                 bg-gray-100
                 rounded-xl
                 border border-gray-200
                 p-3
+                transition
+                hover:-translate-y-1
               "
             >
               {/* Image */}
@@ -57,35 +62,11 @@ export default function Projects() {
                   className="
                     object-contain
                     transition-transform duration-500
-                    hover:scale-105
+                    group-hover:scale-105
                   "
                 />
               </div>
-
-              {/* Live Preview Button */}
-              <a
-                href={project.live}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="absolute bottom-5 right-5"
-              >
-                <button
-                  className="
-                    rounded-full
-                    bg-black/90
-                    backdrop-blur
-                    text-white
-                    px-2 py-1
-                    text-sm font-semibold
-                    shadow-lg
-                    hover:bg-black
-                    transition
-                  "
-                >
-                  Live Preview
-                </button>
-              </a>
-            </div>
+            </a>
           ))}
         </div>
 
