@@ -10,8 +10,8 @@ const projects = [
     live: "https://project3-lake-six.vercel.app/",
   },
   {
-    image: "/x2.png",
-    live: "https://xero-crypto.vercel.app/",
+    image: "/projects.png",
+    live: "https://menswears.vercel.app/",
   },
 ]
 
