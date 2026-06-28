@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <motion.section
     id="contact"
-      className="flex justify-center items-center py-22 px-4 md:px-12 lg:px-24"
+      className="flex justify-center items-center py-22 px-4 md:px-12 lg:px-24 bg-gray-50"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
